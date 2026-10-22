@@ -1,0 +1,18 @@
+KV260/
+├── .gitignore            loại bỏ file build, license, file chữ ký
+├── Makefile              make hw / sw / console / clean
+├── README.md             tóm tắt và trình tự lệnh xsdb
+├── HUONG_DAN.md          tài liệu chi tiết
+├── hw/
+│   └── create_hw.tcl     tạo lại toàn bộ thiết kế Vivado, XSA, psu_init, hw_config.h
+└── sw/
+    ├── Makefile
+    ├── linker.ld
+    └── src/
+        ├── startup.S
+        ├── reg.h
+        ├── uart.h
+        ├── uart.c
+        ├── delay.h
+        ├── delay.c
+        └── main.c
