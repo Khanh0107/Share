@@ -1,0 +1,21 @@
+create libxil.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/zdma/src/libzdma.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/wdtps/src/libwdtps.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/uartps/src/libuartps.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/ttcps/src/libttcps.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/sysmonpsu/src/libsysmonpsu.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/spips/src/libspips.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/scugic/src/libscugic.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/rtcpsu/src/librtcpsu.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/resetps/src/libresetps.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/qspipsu/src/libqspipsu.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/ipipsu/src/libipipsu.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/iicps/src/libiicps.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/gpiops/src/libgpiops.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/ddrcpsu/src/libddrcpsu.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/csudma/src/libcsudma.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/coresightps_dcc/src/libcoresightps_dcc.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/clockps/src/libclockps.a
+addlib /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/axipmon/src/libaxipmon.a
+save
+end

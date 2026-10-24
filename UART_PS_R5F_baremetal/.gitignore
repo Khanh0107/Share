@@ -1,0 +1,15 @@
+# San pham build - tao lai bang "make hw" / "make sw"
+build/
+sw/build/
+.Xil/
+*.jou
+*.log
+*.str
+
+# License Xilinx (gan voi MAC tung may, khong chia se)
+*.lic
+
+# File kiem tra bo cai, khong phai ma nguon
+*.digests
+*.sig
+*.asc

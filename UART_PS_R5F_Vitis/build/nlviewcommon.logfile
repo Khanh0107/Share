@@ -1,0 +1,3803 @@
+# Copyright (C) 2022-2024, Altair Engineering Inc.
+# Copyright (C) 1994-2022, Concept Engineering GmbH.
+# All Rights Reserved.  Cmd=logfile.
+# Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0 TLS
+# License cookie [G|T|S|B|*] for HR="Xilinx Inc."
+# -----------------------------------------------------------------------------
+# dbg -netnet 10
+# property -colorscheme lightblue
+# property attrfontsize 8
+# property autobundle 3
+# property boxcolor0 #575d6c
+# property boxcolor1 #ffffff
+# property boxcolor2 #575d6c
+# property boxcolor3 #000000
+# property boxcolor4 #1c1f28
+# property boxinstcolor #1c1f28
+# property boxpincolor #1c1f28
+# property closeenough 15
+# property decorate 19
+# property fillcolor2 #cde5ff
+# property fillcolor3 #cde5ff
+# property fillcolor4 #cde5ff
+# property fillcolor5 #e5c7ff
+# property gatecellname 2
+# property marksize 12
+# property maxfontsize 14
+# property maxzoom 5
+# property minchannelwidth 40
+# property netcolor #8bc34a
+# property nethidedetails 1
+# property nohiernegpins 0
+# property objecthighlight0 #fe00f6
+# property objecthighlight1 #ffea00
+# property objecthighlight2 #84e413
+# property objecthighlight3 #1661ff
+# property objecthighlight4 #d9b7ff
+# property objecthighlight5 #ffa358
+# property objecthighlight6 #ff2b2b
+# property objecthighlight7 #00e0ff
+# property objecthighlight8 #c0ca33
+# property objecthighlight9 #b16eff
+# property objecthighlight10 #46a466
+# property objecthighlight11 #caff78
+# property objecthighlight12 #ab47bc
+# property objecthighlight13 #b4602c
+# property objecthighlight14 #c20f8c
+# property objecthighlight15 #00ffaa
+# property objecthighlight16 #ff9fe4
+# property objecthighlight17 #ff8019
+# property objecthighlight18 #26b3ff
+# property objecthighlight19 #e5551c
+# property objecthighlight69 #c89900
+# property pbuscolor #000000
+# property pbusnamecolor #1c1f28
+# property pinattrmax 15
+# property pinpermute 0
+# property portcolor #000000
+# property portnamecolor #1c1f28
+# property reducejogs 100
+# property ripindexfontsize 3
+# property rubberbandcolor #1c1f28
+# property rubberbandfontsize 13
+# property selectattr 80
+# property selectionappearance 14
+# property selectioncolor #396cef
+# property sheetheight 44
+# property sheetwidth 68
+# property showlevels 128
+# property showmarks 1
+# property showripindex 1
+# property timelimit 1
+# -----------------------------------------------------------------------------
+property decorate 531
+property elidetext 0
+property pinpermute 0
+property netindicators 0
+dbg -netnet 10
+module new system_imp -nosplit
+#  * Current module is system_imp 
+show
+# Starting Split Pages                                                   34.27
+# NoSplit 0 Comps, 0 Nets 0 NetBundles                                   34.27
+# End of Split Pages                                                     34.27
+# Generating  Page 1:    0 Comps,    0 Nets                              34.27
+# End of Generating  Page 1                                              34.27
+scrollpos 23 40
+selection -ignore {}
+selection
+highlight {}
+fullfit
+zoom
+#R 0.8
+#CMD gsave -string -flagsOSRD
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+scrollpos 23 40
+#CMD save -string
+#CMD restore -string #\ String\ saved\ with\ Nlview\ 7.8.0\ 2024-04-26\ e1825d83
+restore -log_init -string ...
+dbg -netnet 10
+property -colorscheme lightblue
+property attrfontsize 8
+property autobundle 3
+property boxcolor0 #575d6c
+property boxcolor1 #ffffff
+property boxcolor2 #575d6c
+property boxcolor3 #000000
+property boxcolor4 #1c1f28
+property boxinstcolor #1c1f28
+property boxpincolor #1c1f28
+property closeenough 15
+property decorate 531
+property fillcolor2 #cde5ff
+property fillcolor3 #cde5ff
+property fillcolor4 #cde5ff
+property fillcolor5 #e5c7ff
+property gatecellname 2
+property marksize 12
+property maxfontsize 14
+property maxzoom 5
+property minchannelwidth 40
+property netcolor #8bc34a
+property nethidedetails 1
+property nohiernegpins 0
+property objecthighlight0 #fe00f6
+property objecthighlight1 #ffea00
+property objecthighlight2 #84e413
+property objecthighlight3 #1661ff
+property objecthighlight4 #d9b7ff
+property objecthighlight5 #ffa358
+property objecthighlight6 #ff2b2b
+property objecthighlight7 #00e0ff
+property objecthighlight8 #c0ca33
+property objecthighlight9 #b16eff
+property objecthighlight10 #46a466
+property objecthighlight11 #caff78
+property objecthighlight12 #ab47bc
+property objecthighlight13 #b4602c
+property objecthighlight14 #c20f8c
+property objecthighlight15 #00ffaa
+property objecthighlight16 #ff9fe4
+property objecthighlight17 #ff8019
+property objecthighlight18 #26b3ff
+property objecthighlight19 #e5551c
+property objecthighlight69 #c89900
+property pbuscolor #000000
+property pbusnamecolor #1c1f28
+property pinattrmax 15
+property pinpermute 0
+property portcolor #000000
+property portnamecolor #1c1f28
+property reducejogs 100
+property ripindexfontsize 3
+property rubberbandcolor #1c1f28
+property rubberbandfontsize 13
+property selectattr 80
+property selectionappearance 14
+property selectioncolor #396cef
+property sheetheight 44
+property sheetwidth 68
+property showlevels 128
+property showmarks 1
+property showripindex 1
+property timelimit 1
+module new system_imp {} -nosplit
+#  * Current module is system_imp 
+levelinfo -pg 1 0 10
+pagesize -pg 1 -db -bbox -sgen 0 0 10 10
+show
+# Starting Split Pages                                                   34.45
+# NoSplit 0 Comps, 0 Nets 0 NetBundles                                   34.45
+# End of Split Pages                                                     34.45
+# Generating  Page 1:    0 Comps,    0 Nets                              34.45
+# End of Generating  Page 1                                              34.45
+scrollpos -570 -131
+scrollpos 23 40
+restore -log_finit
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+property elidetext 0
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+clear
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+property pinpermute 0
+property netindicators 0
+dbg -netnet 10
+module new system_imp -nosplit
+#  * Current module is system_imp 
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+show
+# Starting Split Pages                                                   34.46
+# NoSplit 0 Comps, 0 Nets 0 NetBundles                                   34.46
+# End of Split Pages                                                     34.46
+# Generating  Page 1:    0 Comps,    0 Nets                              34.47
+# End of Generating  Page 1                                              34.47
+scrollpos -570 -131
+selection -ignore {}
+selection
+highlight {}
+fullfit
+zoom
+#R 0.8
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+increment
+#CMD grestore -string #\ #\ String\ gsaved\ with\ Nlview\ 7.8.0\ 2024-04-26\ e18
+levelinfo -pg 1 0 10
+pagesize -pg 1 -db -bbox -sgen 0 0 10 10
+show
+# Starting Split Pages                                                   34.47
+# NoSplit 0 Comps, 0 Nets 0 NetBundles                                   34.47
+# End of Split Pages                                                     34.47
+# Generating  Page 1:    0 Comps,    0 Nets                              34.47
+# End of Generating  Page 1                                              34.47
+fullfit
+zoom
+#R 0.8
+fullfit
+zoom
+#R 0.8
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+zoom
+#R 0.8
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+zoom
+#R 0.8
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+zoom
+#R 0.8
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+zoom
+#R 0.8
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+zoom
+#R 0.8
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+zoom
+#R 0.8
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+zoom
+#R 0.8
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+zoom
+#R 0.8
+scrollpos -570 -131
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+zoom
+#R 0.8
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+page
+#R 1
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+#CMD bind -delete_all
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+#CMD bind -delete_all
+#CMD gsave -string -flagsOSRD
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+#CMD gsave -string -flagsOSRD
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+#CMD gsave -string -flagsOSRD
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+page
+#R 1
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+pagesize
+#R 0 0
+page
+#R 1
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+#CMD bind -reset
+#CMD bind ctrl-stroke-1 -action pan
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-2 -action {}
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 0 0
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+#CMD bind click-1 -action selection_hier
+#CMD bind click-3 -action selection
+#CMD bind ctrl-click-1 -action selection_append
+#CMD bind shift-click-1 -action {}
+#CMD bind {click-1-button @iexplode} -action iexplode-obj-const
+#CMD bind {click-1-button @iexplode2} -action iexplode-obj-const
+#CMD bind {click-1-button @icollapse} -action icollapse-obj-const
+#CMD bind {click-1-button @icollapse2} -action icollapse-obj-const
+#CMD bind {stroke-1-button @resize_ll} -action callback -autoscroll -echo_type resize
+#CMD bind {stroke-1-button @resize_lr} -action callback -autoscroll -echo_type resize
+#CMD bind {stroke-1-button @resize_ul} -action callback -autoscroll -echo_type resize
+#CMD bind {stroke-1-button @resize_ur} -action callback -autoscroll -echo_type resize
+#CMD bind {click-1-button @hier_fold} -action callback
+#CMD bind {click-1-button @hier_unfold} -action callback
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+clear
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+property pinpermute 0
+property netindicators 0
+dbg -netnet 10
+module new system_imp -nosplit
+#  * Current module is system_imp 
+search -exists inst *
+#R 0
+search -exists port *
+#R 0
+search -exists portBus *
+#R 0
+search -exists cgraphic *
+#R 0
+load symbol system_zynq_ultra_ps_e_0_0 v IGEN pinBus pl_ps_irq0 in 1 pl_ps_irq0:0 pinlinewidth 5 pin pl_resetn0 out.neg pinlinewidth 3 pin pl_clk0 out pinlinewidth 3 pin pl_clk1 out pinlinewidth 3 fillcolor 5 imagedsp /home/bo/AMD/2026.1/data/ip/xilinx/zynq_ultra_ps_e_v3_5/image/zynq_ultra.png -cc 0 0 269 114r centered
+load inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v -attr @name zynq_ultra_ps_e_0 -attr @cell {Zynq UltraScale+ MPSoC}
+attribute {pinBus zynq_ultra_ps_e_0 pl_ps_irq0} -attr @name pl_ps_irq0[0:0]
+property boxcolor3
+#R #000000
+property boxcolor4
+#R #1c1f28
+#CMD grestore -string #\ #\ String\ gsaved\ with\ Nlview\ 7.8.0\ 2024-04-26\ e18
+levelinfo -pg 1 0 10
+pagesize -pg 1 -db -bbox -sgen 0 0 10 10
+show
+# Starting Split Pages                                                   50.05
+# NoSplit 1 Comps, 0 Nets 0 NetBundles                                   50.05
+# End of Split Pages                                                     50.05
+# Generating  Page 1:    1 Comps,    0 Nets                              50.05
+# End of Generating  Page 1                                              50.05
+scrollpos -373 -66
+increment
+#CMD grestore -string #\ #\ String\ gsaved\ with\ Nlview\ 7.8.0\ 2024-04-26\ e18
+levelinfo -pg 1 0 10
+pagesize -pg 1 -db -bbox -sgen 0 0 10 10
+show
+# Starting Split Pages                                                   50.05
+# NoSplit 1 Comps, 0 Nets 0 NetBundles                                   50.05
+# End of Split Pages                                                     50.05
+# Generating  Page 1:    1 Comps,    0 Nets                              50.05
+# End of Generating  Page 1                                              50.05
+scrollpos -372 -66
+scrollpos -371 -66
+selection -ignore {}
+selection
+highlight {}
+fullfit
+scrollpos -110 -2
+zoom
+#R 1.81421
+zoom 1.0
+scrollpos -322 -76
+#R 1
+search -exists inst *
+#R 1
+search pin * *
+#R {pin zynq_ultra_ps_e_0 pl_resetn0 output} {pin zynq_ultra_ps_e_0 pl_clk0 output} {pin zynq_ultra_ps_e_0 pl_clk1 output}
+search pinBus * *
+#R {pinBus zynq_ultra_ps_e_0 pl_ps_irq0 input 1 pl_ps_irq0:0}
+attribute {pin zynq_ultra_ps_e_0 pl_resetn0} -attr @attr -remove
+attribute {pin zynq_ultra_ps_e_0 pl_clk0} -attr @attr -remove
+attribute {pin zynq_ultra_ps_e_0 pl_clk1} -attr @attr -remove
+attribute {pinBus zynq_ultra_ps_e_0 pl_ps_irq0} -attr @attr -remove
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+page
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+page
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+search -exists inst *
+#R 1
+property fillcolor1
+#R #f4f5f7
+property fillcolor5
+#R #e5c7ff
+property backgroundcolor #ffffff
+property boxinstcolor #1c1f28
+property boxpincolor #1c1f28
+property portnamecolor #1c1f28
+property pbusnamecolor #1c1f28
+property netcolor #8bc34a
+property buscolor #469cb9
+property portcolor #000000
+property pbuscolor #000000
+property boxcolor0 #575d6c
+property boxcolor1 #ffffff
+property boxcolor2 #575d6c
+property fillcolor2 #cde5ff
+property fillcolor3 #cde5ff
+property fillcolor4 #cde5ff
+property fillcolor5 #e5c7ff
+property boxcolor3 #000000
+property boxcolor4 #1c1f28
+property selectioncolor #396cef
+property objecthighlight69 #c89900
+property attrfontsize 8
+property objecthighlight0 #fe00f6
+property objecthighlight1 #ffea00
+property objecthighlight2 #84e413
+property objecthighlight3 #1661ff
+property objecthighlight4 #d9b7ff
+property objecthighlight5 #ffa358
+property objecthighlight6 #ff2b2b
+property objecthighlight7 #00e0ff
+property objecthighlight8 #c0ca33
+property objecthighlight9 #b16eff
+property objecthighlight10 #46a466
+property objecthighlight11 #caff78
+property objecthighlight12 #ab47bc
+property objecthighlight13 #b4602c
+property objecthighlight14 #c20f8c
+property objecthighlight15 #00ffaa
+property objecthighlight16 #ff9fe4
+property objecthighlight17 #ff8019
+property objecthighlight18 #26b3ff
+property objecthighlight19 #e5551c
+property rubberbandcolor #1c1f28
+redraw
+page
+#R 1
+search pin * *
+#R {pin zynq_ultra_ps_e_0 pl_resetn0 output} {pin zynq_ultra_ps_e_0 pl_clk0 output} {pin zynq_ultra_ps_e_0 pl_clk1 output}
+search pinBus * *
+#R {pinBus zynq_ultra_ps_e_0 pl_ps_irq0 input 1 pl_ps_irq0:0}
+scrollpos -322 -76
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+search -exists inst *
+#R 1
+property fillcolor1
+#R #f4f5f7
+property fillcolor5
+#R #e5c7ff
+property backgroundcolor #ffffff
+property boxinstcolor #1c1f28
+property boxpincolor #1c1f28
+property portnamecolor #1c1f28
+property pbusnamecolor #1c1f28
+property netcolor #8bc34a
+property buscolor #469cb9
+property portcolor #000000
+property pbuscolor #000000
+property boxcolor0 #575d6c
+property boxcolor1 #ffffff
+property boxcolor2 #575d6c
+property fillcolor2 #cde5ff
+property fillcolor3 #cde5ff
+property fillcolor4 #cde5ff
+property fillcolor5 #e5c7ff
+property boxcolor3 #000000
+property boxcolor4 #1c1f28
+property selectioncolor #396cef
+property objecthighlight69 #c89900
+property attrfontsize 8
+property objecthighlight0 #fe00f6
+property objecthighlight1 #ffea00
+property objecthighlight2 #84e413
+property objecthighlight3 #1661ff
+property objecthighlight4 #d9b7ff
+property objecthighlight5 #ffa358
+property objecthighlight6 #ff2b2b
+property objecthighlight7 #00e0ff
+property objecthighlight8 #c0ca33
+property objecthighlight9 #b16eff
+property objecthighlight10 #46a466
+property objecthighlight11 #caff78
+property objecthighlight12 #ab47bc
+property objecthighlight13 #b4602c
+property objecthighlight14 #c20f8c
+property objecthighlight15 #00ffaa
+property objecthighlight16 #ff9fe4
+property objecthighlight17 #ff8019
+property objecthighlight18 #26b3ff
+property objecthighlight19 #e5551c
+property rubberbandcolor #1c1f28
+redraw
+page
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+search -exists inst *
+#R 1
+property fillcolor1
+#R #f4f5f7
+property fillcolor5
+#R #e5c7ff
+property backgroundcolor #ffffff
+property boxinstcolor #1c1f28
+property boxpincolor #1c1f28
+property portnamecolor #1c1f28
+property pbusnamecolor #1c1f28
+property netcolor #8bc34a
+property buscolor #469cb9
+property portcolor #000000
+property pbuscolor #000000
+property boxcolor0 #575d6c
+property boxcolor1 #ffffff
+property boxcolor2 #575d6c
+property fillcolor2 #cde5ff
+property fillcolor3 #cde5ff
+property fillcolor4 #cde5ff
+property fillcolor5 #e5c7ff
+property boxcolor3 #000000
+property boxcolor4 #1c1f28
+property selectioncolor #396cef
+property objecthighlight69 #c89900
+property attrfontsize 8
+property objecthighlight0 #fe00f6
+property objecthighlight1 #ffea00
+property objecthighlight2 #84e413
+property objecthighlight3 #1661ff
+property objecthighlight4 #d9b7ff
+property objecthighlight5 #ffa358
+property objecthighlight6 #ff2b2b
+property objecthighlight7 #00e0ff
+property objecthighlight8 #c0ca33
+property objecthighlight9 #b16eff
+property objecthighlight10 #46a466
+property objecthighlight11 #caff78
+property objecthighlight12 #ab47bc
+property objecthighlight13 #b4602c
+property objecthighlight14 #c20f8c
+property objecthighlight15 #00ffaa
+property objecthighlight16 #ff9fe4
+property objecthighlight17 #ff8019
+property objecthighlight18 #26b3ff
+property objecthighlight19 #e5551c
+property rubberbandcolor #1c1f28
+redraw
+page
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+search -exists inst *
+#R 1
+property fillcolor1
+#R #f4f5f7
+property fillcolor5
+#R #e5c7ff
+property backgroundcolor #ffffff
+property boxinstcolor #1c1f28
+property boxpincolor #1c1f28
+property portnamecolor #1c1f28
+property pbusnamecolor #1c1f28
+property netcolor #8bc34a
+property buscolor #469cb9
+property portcolor #000000
+property pbuscolor #000000
+property boxcolor0 #575d6c
+property boxcolor1 #ffffff
+property boxcolor2 #575d6c
+property fillcolor2 #cde5ff
+property fillcolor3 #cde5ff
+property fillcolor4 #cde5ff
+property fillcolor5 #e5c7ff
+property boxcolor3 #000000
+property boxcolor4 #1c1f28
+property selectioncolor #396cef
+property objecthighlight69 #c89900
+property attrfontsize 8
+property objecthighlight0 #fe00f6
+property objecthighlight1 #ffea00
+property objecthighlight2 #84e413
+property objecthighlight3 #1661ff
+property objecthighlight4 #d9b7ff
+property objecthighlight5 #ffa358
+property objecthighlight6 #ff2b2b
+property objecthighlight7 #00e0ff
+property objecthighlight8 #c0ca33
+property objecthighlight9 #b16eff
+property objecthighlight10 #46a466
+property objecthighlight11 #caff78
+property objecthighlight12 #ab47bc
+property objecthighlight13 #b4602c
+property objecthighlight14 #c20f8c
+property objecthighlight15 #00ffaa
+property objecthighlight16 #ff9fe4
+property objecthighlight17 #ff8019
+property objecthighlight18 #26b3ff
+property objecthighlight19 #e5551c
+property rubberbandcolor #1c1f28
+redraw
+page
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+search -exists inst *
+#R 1
+property fillcolor1
+#R #f4f5f7
+property fillcolor5
+#R #e5c7ff
+property backgroundcolor #ffffff
+property boxinstcolor #1c1f28
+property boxpincolor #1c1f28
+property portnamecolor #1c1f28
+property pbusnamecolor #1c1f28
+property netcolor #8bc34a
+property buscolor #469cb9
+property portcolor #000000
+property pbuscolor #000000
+property boxcolor0 #575d6c
+property boxcolor1 #ffffff
+property boxcolor2 #575d6c
+property fillcolor2 #cde5ff
+property fillcolor3 #cde5ff
+property fillcolor4 #cde5ff
+property fillcolor5 #e5c7ff
+property boxcolor3 #000000
+property boxcolor4 #1c1f28
+property selectioncolor #396cef
+property objecthighlight69 #c89900
+property attrfontsize 8
+property objecthighlight0 #fe00f6
+property objecthighlight1 #ffea00
+property objecthighlight2 #84e413
+property objecthighlight3 #1661ff
+property objecthighlight4 #d9b7ff
+property objecthighlight5 #ffa358
+property objecthighlight6 #ff2b2b
+property objecthighlight7 #00e0ff
+property objecthighlight8 #c0ca33
+property objecthighlight9 #b16eff
+property objecthighlight10 #46a466
+property objecthighlight11 #caff78
+property objecthighlight12 #ab47bc
+property objecthighlight13 #b4602c
+property objecthighlight14 #c20f8c
+property objecthighlight15 #00ffaa
+property objecthighlight16 #ff9fe4
+property objecthighlight17 #ff8019
+property objecthighlight18 #26b3ff
+property objecthighlight19 #e5551c
+property rubberbandcolor #1c1f28
+redraw
+page
+#R 1
+search -exists inst *
+#R 1
+pick * -hier 738 100
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 738 100
+pick portBus 738 100
+pick pin 738 100
+pick pinBus 738 100
+pick hierPin 738 100
+pick hierPinBus 738 100
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 738 100
+pick port 738 100
+pick portBus 738 100
+pick * -hier 738 100
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 738 100
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 738 100
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 738 85
+property selectattr 0
+pick port 738 85
+pick portBus 738 85
+pick pin 738 85
+pick pinBus 738 85
+pick hierPin 738 85
+pick hierPinBus 738 85
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 738 85
+pick port 738 85
+pick portBus 738 85
+pick * -hier 738 85
+pick -selectattr 2 * 738 85
+pick * -selectattr 2 738 85
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 741 87
+property selectattr 0
+pick port 741 87
+pick portBus 741 87
+pick pin 741 87
+pick pinBus 741 87
+pick hierPin 741 87
+pick hierPinBus 741 87
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 741 87
+pick port 741 87
+pick portBus 741 87
+pick * -hier 741 87
+pick -selectattr 2 * 741 87
+pick * -selectattr 2 741 87
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 755 102
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 755 102
+pick portBus 755 102
+pick pin 755 102
+pick pinBus 755 102
+pick hierPin 755 102
+pick hierPinBus 755 102
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 755 102
+pick port 755 102
+pick portBus 755 102
+pick * -hier 755 102
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 755 102
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 755 102
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 769 116
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 769 116
+pick portBus 769 116
+pick pin 769 116
+pick pinBus 769 116
+pick hierPin 769 116
+pick hierPinBus 769 116
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 769 116
+pick port 769 116
+pick portBus 769 116
+pick * -hier 769 116
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 769 116
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 769 116
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 789 135
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 789 135
+pick portBus 789 135
+pick pin 789 135
+pick pinBus 789 135
+pick hierPin 789 135
+pick hierPinBus 789 135
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 789 135
+pick port 789 135
+pick portBus 789 135
+pick * -hier 789 135
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 789 135
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 789 135
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 837 182
+property selectattr 0
+pick port 837 182
+pick portBus 837 182
+pick pin 837 182
+pick pinBus 837 182
+pick hierPin 837 182
+pick hierPinBus 837 182
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 837 182
+pick port 837 182
+pick portBus 837 182
+pick * -hier 837 182
+pick -selectattr 2 * 837 182
+pick * -selectattr 2 837 182
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 860 210
+property selectattr 0
+pick port 860 210
+pick portBus 860 210
+pick pin 860 210
+pick pinBus 860 210
+pick hierPin 860 210
+pick hierPinBus 860 210
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 860 210
+pick port 860 210
+pick portBus 860 210
+pick * -hier 860 210
+pick -selectattr 2 * 860 210
+pick * -selectattr 2 860 210
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 878 238
+property selectattr 0
+pick port 878 238
+pick portBus 878 238
+pick pin 878 238
+pick pinBus 878 238
+pick hierPin 878 238
+pick hierPinBus 878 238
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 878 238
+pick port 878 238
+pick portBus 878 238
+pick * -hier 878 238
+pick -selectattr 2 * 878 238
+pick * -selectattr 2 878 238
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 906 297
+property selectattr 0
+pick port 906 297
+pick portBus 906 297
+pick pin 906 297
+pick pinBus 906 297
+pick hierPin 906 297
+pick hierPinBus 906 297
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 906 297
+pick port 906 297
+pick portBus 906 297
+pick * -hier 906 297
+pick -selectattr 2 * 906 297
+pick * -selectattr 2 906 297
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 562 288
+property selectattr 0
+pick port 562 288
+pick portBus 562 288
+pick pin 562 288
+pick pinBus 562 288
+pick hierPin 562 288
+pick hierPinBus 562 288
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 562 288
+pick port 562 288
+pick portBus 562 288
+pick * -hier 562 288
+pick -selectattr 2 * 562 288
+pick * -selectattr 2 562 288
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 514 266
+property selectattr 0
+pick port 514 266
+pick portBus 514 266
+pick pin 514 266
+pick pinBus 514 266
+pick hierPin 514 266
+pick hierPinBus 514 266
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 514 266
+pick port 514 266
+pick portBus 514 266
+pick * -hier 514 266
+pick -selectattr 2 * 514 266
+pick * -selectattr 2 514 266
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 462 242
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 462 242
+pick portBus 462 242
+pick pin 462 242
+pick pinBus 462 242
+pick hierPin 462 242
+pick hierPinBus 462 242
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 462 242
+pick port 462 242
+pick portBus 462 242
+pick * -hier 462 242
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 462 242
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 462 242
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 404 219
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 404 219
+pick portBus 404 219
+pick pin 404 219
+pick pinBus 404 219
+pick hierPin 404 219
+pick hierPinBus 404 219
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 404 219
+pick port 404 219
+pick portBus 404 219
+pick * -hier 404 219
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 404 219
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 404 219
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 346 196
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 346 196
+pick portBus 346 196
+pick pin 346 196
+pick pinBus 346 196
+pick hierPin 346 196
+pick hierPinBus 346 196
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 346 196
+pick port 346 196
+pick portBus 346 196
+pick * -hier 346 196
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 346 196
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 346 196
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 289 174
+property selectattr 0
+pick port 289 174
+pick portBus 289 174
+pick pin 289 174
+pick pinBus 289 174
+pick hierPin 289 174
+pick hierPinBus 289 174
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 289 174
+pick port 289 174
+pick portBus 289 174
+pick * -hier 289 174
+pick -selectattr 2 * 289 174
+pick * -selectattr 2 289 174
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 226 153
+property selectattr 0
+pick port 226 153
+pick portBus 226 153
+pick pin 226 153
+pick pinBus 226 153
+pick hierPin 226 153
+pick hierPinBus 226 153
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 226 153
+pick port 226 153
+pick portBus 226 153
+pick * -hier 226 153
+pick -selectattr 2 * 226 153
+pick * -selectattr 2 226 153
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 164 136
+property selectattr 0
+pick port 164 136
+pick portBus 164 136
+pick pin 164 136
+pick pinBus 164 136
+pick hierPin 164 136
+pick hierPinBus 164 136
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 164 136
+pick port 164 136
+pick portBus 164 136
+pick * -hier 164 136
+pick -selectattr 2 * 164 136
+pick * -selectattr 2 164 136
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 97 120
+property selectattr 0
+pick port 97 120
+pick portBus 97 120
+pick pin 97 120
+pick pinBus 97 120
+pick hierPin 97 120
+pick hierPinBus 97 120
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 97 120
+pick port 97 120
+pick portBus 97 120
+pick * -hier 97 120
+pick -selectattr 2 * 97 120
+pick * -selectattr 2 97 120
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 30 103
+property selectattr 0
+pick port 30 103
+pick portBus 30 103
+pick pin 30 103
+pick pinBus 30 103
+pick hierPin 30 103
+pick hierPinBus 30 103
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 30 103
+pick port 30 103
+pick portBus 30 103
+pick * -hier 30 103
+pick -selectattr 2 * 30 103
+pick * -selectattr 2 30 103
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+scrollpos -322 -76
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+scrollpos -322 -76
+page
+#R 1
+search -exists inst *
+#R 1
+pick * -hier 318 243
+property selectattr 0
+pick port 318 243
+pick portBus 318 243
+pick pin 318 243
+pick pinBus 318 243
+pick hierPin 318 243
+pick hierPinBus 318 243
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 318 243
+pick port 318 243
+pick portBus 318 243
+pick * -hier 318 243
+pick -selectattr 2 * 318 243
+pick * -selectattr 2 318 243
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+zoom
+#R 1
+search -exists inst *
+#R 1
+pick * -hier 316 242
+property selectattr 0
+pick port 316 242
+pick portBus 316 242
+pick pin 316 242
+pick pinBus 316 242
+pick hierPin 316 242
+pick hierPinBus 316 242
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 316 242
+pick port 316 242
+pick portBus 316 242
+pick * -hier 316 242
+pick -selectattr 2 * 316 242
+pick * -selectattr 2 316 242
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 304 233
+property selectattr 0
+pick port 304 233
+pick portBus 304 233
+pick pin 304 233
+pick pinBus 304 233
+pick hierPin 304 233
+pick hierPinBus 304 233
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 304 233
+pick port 304 233
+pick portBus 304 233
+pick * -hier 304 233
+pick -selectattr 2 * 304 233
+pick * -selectattr 2 304 233
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 303 233
+property selectattr 0
+pick port 303 233
+pick portBus 303 233
+pick pin 303 233
+pick pinBus 303 233
+pick hierPin 303 233
+pick hierPinBus 303 233
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 303 233
+pick port 303 233
+pick portBus 303 233
+pick * -hier 303 233
+pick -selectattr 2 * 303 233
+pick * -selectattr 2 303 233
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 303 232
+property selectattr 0
+pick port 303 232
+pick portBus 303 232
+pick pin 303 232
+pick pinBus 303 232
+pick hierPin 303 232
+pick hierPinBus 303 232
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 303 232
+pick port 303 232
+pick portBus 303 232
+pick * -hier 303 232
+pick -selectattr 2 * 303 232
+pick * -selectattr 2 303 232
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 303 230
+property selectattr 0
+pick port 303 230
+pick portBus 303 230
+pick pin 303 230
+pick pinBus 303 230
+pick hierPin 303 230
+pick hierPinBus 303 230
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 303 230
+pick port 303 230
+pick portBus 303 230
+pick * -hier 303 230
+pick -selectattr 2 * 303 230
+pick * -selectattr 2 303 230
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 303 226
+property selectattr 0
+pick port 303 226
+pick portBus 303 226
+pick pin 303 226
+pick pinBus 303 226
+pick hierPin 303 226
+pick hierPinBus 303 226
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 303 226
+pick port 303 226
+pick portBus 303 226
+pick * -hier 303 226
+pick -selectattr 2 * 303 226
+pick * -selectattr 2 303 226
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 303 221
+property selectattr 0
+pick port 303 221
+pick portBus 303 221
+pick pin 303 221
+pick pinBus 303 221
+pick hierPin 303 221
+pick hierPinBus 303 221
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 303 221
+pick port 303 221
+pick portBus 303 221
+pick * -hier 303 221
+pick -selectattr 2 * 303 221
+pick * -selectattr 2 303 221
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 306 213
+property selectattr 0
+pick port 306 213
+pick portBus 306 213
+pick pin 306 213
+pick pinBus 306 213
+pick hierPin 306 213
+pick hierPinBus 306 213
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 306 213
+pick port 306 213
+pick portBus 306 213
+pick * -hier 306 213
+pick -selectattr 2 * 306 213
+pick * -selectattr 2 306 213
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 308 211
+property selectattr 0
+pick port 308 211
+pick portBus 308 211
+pick pin 308 211
+pick pinBus 308 211
+pick hierPin 308 211
+pick hierPinBus 308 211
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 308 211
+pick port 308 211
+pick portBus 308 211
+pick * -hier 308 211
+pick -selectattr 2 * 308 211
+pick * -selectattr 2 308 211
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 310 206
+property selectattr 0
+pick port 310 206
+pick portBus 310 206
+pick pin 310 206
+pick pinBus 310 206
+pick hierPin 310 206
+pick hierPinBus 310 206
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 310 206
+pick port 310 206
+pick portBus 310 206
+pick * -hier 310 206
+pick -selectattr 2 * 310 206
+pick * -selectattr 2 310 206
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 314 203
+property selectattr 0
+pick port 314 203
+pick portBus 314 203
+pick pin 314 203
+pick pinBus 314 203
+pick hierPin 314 203
+pick hierPinBus 314 203
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 314 203
+pick port 314 203
+pick portBus 314 203
+pick * -hier 314 203
+pick -selectattr 2 * 314 203
+pick * -selectattr 2 314 203
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 320 196
+property selectattr 0
+pick port 320 196
+pick portBus 320 196
+pick pin 320 196
+pick pinBus 320 196
+pick hierPin 320 196
+pick hierPinBus 320 196
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 320 196
+pick port 320 196
+pick portBus 320 196
+pick * -hier 320 196
+pick -selectattr 2 * 320 196
+pick * -selectattr 2 320 196
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 326 190
+property selectattr 0
+pick port 326 190
+pick portBus 326 190
+pick pin 326 190
+pick pinBus 326 190
+pick hierPin 326 190
+pick hierPinBus 326 190
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 326 190
+pick port 326 190
+pick portBus 326 190
+pick * -hier 326 190
+pick -selectattr 2 * 326 190
+pick * -selectattr 2 326 190
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 347 178
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 347 178
+pick portBus 347 178
+pick pin 347 178
+pick pinBus 347 178
+#R pinBus zynq_ultra_ps_e_0 pl_ps_irq0 input 1 pl_ps_irq0:0
+property selectattr 80
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 360 172
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 360 172
+pick portBus 360 172
+pick pin 360 172
+pick pinBus 360 172
+#R pinBus zynq_ultra_ps_e_0 pl_ps_irq0 input 1 pl_ps_irq0:0
+property selectattr 80
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 372 167
+#R pinBus zynq_ultra_ps_e_0 pl_ps_irq0 input 1 pl_ps_irq0:0
+zoom
+#R 1
+property selectattr 0
+pick port 372 167
+pick portBus 372 167
+pick pin 372 167
+pick pinBus 372 167
+pick hierPin 372 167
+pick hierPinBus 372 167
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 372 167
+pick port 372 167
+pick portBus 372 167
+pick * -hier 372 167
+#R pinBus zynq_ultra_ps_e_0 pl_ps_irq0 input 1 pl_ps_irq0:0
+pick -selectattr 2 * 372 167
+#R attr @name pinBus zynq_ultra_ps_e_0 pl_ps_irq0 input 1 pl_ps_irq0:0
+pick * -selectattr 2 372 167
+#R attr @name pinBus zynq_ultra_ps_e_0 pl_ps_irq0 input 1 pl_ps_irq0:0
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 397 154
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 397 154
+pick portBus 397 154
+pick pin 397 154
+pick pinBus 397 154
+pick hierPin 397 154
+pick hierPinBus 397 154
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 397 154
+pick port 397 154
+pick portBus 397 154
+pick * -hier 397 154
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 397 154
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 397 154
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 440 136
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 440 136
+pick portBus 440 136
+pick pin 440 136
+pick pinBus 440 136
+pick hierPin 440 136
+pick hierPinBus 440 136
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 440 136
+pick port 440 136
+pick portBus 440 136
+pick * -hier 440 136
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 440 136
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 440 136
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 468 124
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 468 124
+pick portBus 468 124
+pick pin 468 124
+pick pinBus 468 124
+pick hierPin 468 124
+pick hierPinBus 468 124
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 468 124
+pick port 468 124
+pick portBus 468 124
+pick * -hier 468 124
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 468 124
+#R image /home/bo/AMD/2026.1/data/ip/xilinx/zynq_ultra_ps_e_v3_5/image/zynq_ultra.png inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 468 124
+#R image /home/bo/AMD/2026.1/data/ip/xilinx/zynq_ultra_ps_e_v3_5/image/zynq_ultra.png inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 498 114
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 498 114
+pick portBus 498 114
+pick pin 498 114
+pick pinBus 498 114
+pick hierPin 498 114
+pick hierPinBus 498 114
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 498 114
+pick port 498 114
+pick portBus 498 114
+pick * -hier 498 114
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 498 114
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 498 114
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 531 102
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 531 102
+pick portBus 531 102
+pick pin 531 102
+pick pinBus 531 102
+pick hierPin 531 102
+pick hierPinBus 531 102
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 531 102
+pick port 531 102
+pick portBus 531 102
+pick * -hier 531 102
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 531 102
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 531 102
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 564 94
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 564 94
+pick portBus 564 94
+pick pin 564 94
+pick pinBus 564 94
+pick hierPin 564 94
+pick hierPinBus 564 94
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 564 94
+pick port 564 94
+pick portBus 564 94
+pick * -hier 564 94
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 564 94
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 564 94
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pagesize
+#R 500 183
+#CMD bind stroke-nw-1 -action {}
+#CMD bind stroke-ne-1 -action {}
+#CMD bind stroke-se-1 -action {}
+#CMD bind stroke-sw-1 -action {}
+#CMD bind stroke-1-inst -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-inst -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-cgraphic -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind stroke-1-port -action callback -autoscroll -echo_type instdrag
+#CMD bind stroke-1-portBus -action callback -autoscroll -echo_type instdrag
+#CMD bind ctrl-stroke-1-port -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+#CMD bind ctrl-stroke-1-portBus -action callback -autoscroll -echo_type instdrag -echo_text Copy -format (,-,)
+search -exists inst *
+#R 1
+pick * -hier 596 83
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+zoom
+#R 1
+property selectattr 0
+pick port 596 83
+pick portBus 596 83
+pick pin 596 83
+pick pinBus 596 83
+pick hierPin 596 83
+pick hierPinBus 596 83
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 596 83
+pick port 596 83
+pick portBus 596 83
+pick * -hier 596 83
+#R inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+bbox {inst zynq_ultra_ps_e_0}
+#R 342 85 822 248
+pick -selectattr 2 * 596 83
+#R attr @name inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+pick * -selectattr 2 596 83
+#R attr @name inst zynq_ultra_ps_e_0 system_zynq_ultra_ps_e_0_0 v
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 626 75
+property selectattr 0
+pick port 626 75
+pick portBus 626 75
+pick pin 626 75
+pick pinBus 626 75
+pick hierPin 626 75
+pick hierPinBus 626 75
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 626 75
+pick port 626 75
+pick portBus 626 75
+pick * -hier 626 75
+pick -selectattr 2 * 626 75
+pick * -selectattr 2 626 75
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 653 69
+property selectattr 0
+pick port 653 69
+pick portBus 653 69
+pick pin 653 69
+pick pinBus 653 69
+pick hierPin 653 69
+pick hierPinBus 653 69
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 653 69
+pick port 653 69
+pick portBus 653 69
+pick * -hier 653 69
+pick -selectattr 2 * 653 69
+pick * -selectattr 2 653 69
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 660 67
+property selectattr 0
+pick port 660 67
+pick portBus 660 67
+pick pin 660 67
+pick pinBus 660 67
+pick hierPin 660 67
+pick hierPinBus 660 67
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 660 67
+pick port 660 67
+pick portBus 660 67
+pick * -hier 660 67
+pick -selectattr 2 * 660 67
+pick * -selectattr 2 660 67
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 677 63
+property selectattr 0
+pick port 677 63
+pick portBus 677 63
+pick pin 677 63
+pick pinBus 677 63
+pick hierPin 677 63
+pick hierPinBus 677 63
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 677 63
+pick port 677 63
+pick portBus 677 63
+pick * -hier 677 63
+pick -selectattr 2 * 677 63
+pick * -selectattr 2 677 63
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 702 59
+property selectattr 0
+pick port 702 59
+pick portBus 702 59
+pick pin 702 59
+pick pinBus 702 59
+pick hierPin 702 59
+pick hierPinBus 702 59
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 702 59
+pick port 702 59
+pick portBus 702 59
+pick * -hier 702 59
+pick -selectattr 2 * 702 59
+pick * -selectattr 2 702 59
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 714 57
+property selectattr 0
+pick port 714 57
+pick portBus 714 57
+pick pin 714 57
+pick pinBus 714 57
+pick hierPin 714 57
+pick hierPinBus 714 57
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 714 57
+pick port 714 57
+pick portBus 714 57
+pick * -hier 714 57
+pick -selectattr 2 * 714 57
+pick * -selectattr 2 714 57
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 716 58
+property selectattr 0
+pick port 716 58
+pick portBus 716 58
+pick pin 716 58
+pick pinBus 716 58
+pick hierPin 716 58
+pick hierPinBus 716 58
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 716 58
+pick port 716 58
+pick portBus 716 58
+pick * -hier 716 58
+pick -selectattr 2 * 716 58
+pick * -selectattr 2 716 58
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 724 63
+property selectattr 0
+pick port 724 63
+pick portBus 724 63
+pick pin 724 63
+pick pinBus 724 63
+pick hierPin 724 63
+pick hierPinBus 724 63
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 724 63
+pick port 724 63
+pick portBus 724 63
+pick * -hier 724 63
+pick -selectattr 2 * 724 63
+pick * -selectattr 2 724 63
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 752 67
+property selectattr 0
+pick port 752 67
+pick portBus 752 67
+pick pin 752 67
+pick pinBus 752 67
+pick hierPin 752 67
+pick hierPinBus 752 67
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 752 67
+pick port 752 67
+pick portBus 752 67
+pick * -hier 752 67
+pick -selectattr 2 * 752 67
+pick * -selectattr 2 752 67
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 773 67
+property selectattr 0
+pick port 773 67
+pick portBus 773 67
+pick pin 773 67
+pick pinBus 773 67
+pick hierPin 773 67
+pick hierPinBus 773 67
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 773 67
+pick port 773 67
+pick portBus 773 67
+pick * -hier 773 67
+pick -selectattr 2 * 773 67
+pick * -selectattr 2 773 67
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 806 67
+property selectattr 0
+pick port 806 67
+pick portBus 806 67
+pick pin 806 67
+pick pinBus 806 67
+pick hierPin 806 67
+pick hierPinBus 806 67
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 806 67
+pick port 806 67
+pick portBus 806 67
+pick * -hier 806 67
+pick -selectattr 2 * 806 67
+pick * -selectattr 2 806 67
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 839 67
+property selectattr 0
+pick port 839 67
+pick portBus 839 67
+pick pin 839 67
+pick pinBus 839 67
+pick hierPin 839 67
+pick hierPinBus 839 67
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 839 67
+pick port 839 67
+pick portBus 839 67
+pick * -hier 839 67
+pick -selectattr 2 * 839 67
+pick * -selectattr 2 839 67
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 875 65
+property selectattr 0
+pick port 875 65
+pick portBus 875 65
+pick pin 875 65
+pick pinBus 875 65
+pick hierPin 875 65
+pick hierPinBus 875 65
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 875 65
+pick port 875 65
+pick portBus 875 65
+pick * -hier 875 65
+pick -selectattr 2 * 875 65
+pick * -selectattr 2 875 65
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 912 56
+property selectattr 0
+pick port 912 56
+pick portBus 912 56
+pick pin 912 56
+pick pinBus 912 56
+pick hierPin 912 56
+pick hierPinBus 912 56
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 912 56
+pick port 912 56
+pick portBus 912 56
+pick * -hier 912 56
+pick -selectattr 2 * 912 56
+pick * -selectattr 2 912 56
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 953 45
+property selectattr 0
+pick port 953 45
+pick portBus 953 45
+pick pin 953 45
+pick pinBus 953 45
+pick hierPin 953 45
+pick hierPinBus 953 45
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 953 45
+pick port 953 45
+pick portBus 953 45
+pick * -hier 953 45
+pick -selectattr 2 * 953 45
+pick * -selectattr 2 953 45
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 991 32
+property selectattr 0
+pick port 991 32
+pick portBus 991 32
+pick pin 991 32
+pick pinBus 991 32
+pick hierPin 991 32
+pick hierPinBus 991 32
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 991 32
+pick port 991 32
+pick portBus 991 32
+pick * -hier 991 32
+pick -selectattr 2 * 991 32
+pick * -selectattr 2 991 32
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 1028 16
+property selectattr 0
+pick port 1028 16
+pick portBus 1028 16
+pick pin 1028 16
+pick pinBus 1028 16
+pick hierPin 1028 16
+pick hierPinBus 1028 16
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 1028 16
+pick port 1028 16
+pick portBus 1028 16
+pick * -hier 1028 16
+pick -selectattr 2 * 1028 16
+pick * -selectattr 2 1028 16
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+search -exists inst *
+#R 1
+pick * -hier 1061 2
+property selectattr 0
+pick port 1061 2
+pick portBus 1061 2
+pick pin 1061 2
+pick pinBus 1061 2
+pick hierPin 1061 2
+pick hierPinBus 1061 2
+property selectattr 80
+#CMD bind stroke-1 -action {}
+#CMD bind stroke-nw-1 -action callback -echo_type line -echo_text {Zoom fit} -format (#1C1F28,#FFFFFF,1.0)
+pagesize
+#R 500 183
+#CMD bind stroke-ne-1 -action zoom_out -echo_type line -echo_text {Zoom -%z} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-se-1 -action callback -echo_type rectangle -autoscroll -echo_text {Zoom area} -format (#1C1F28,#FFFFFF,1.0)
+#CMD bind stroke-sw-1 -action zoom_in2 -echo_type line -echo_text {Zoom +%z} -format (#1C1F28,#FFFFFF,1.0)
+property rubberbandfontsize 13
+property rubberbandcolor #1c1f28
+pick cgraphic 1061 2
+pick port 1061 2
+pick portBus 1061 2
+pick * -hier 1061 2
+pick -selectattr 2 * 1061 2
+pick * -selectattr 2 1061 2
+#CMD bind stroke-1-inst -action {}
+#CMD bind stroke-1-cgraphic -action {}
+#CMD bind ctrl-stroke-1-inst -action {}
+#CMD bind stroke-1-port -action {}
+#CMD bind stroke-1-portBus -action {}
+#CMD bind ctrl-stroke-1-port -action {}
+#CMD bind ctrl-stroke-1-portBus -action {}
+page
+#R 1
+page
+#R 1
+page
+#R 1
+page
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+page
+#R 1
+page
+#R 1
+search -exists inst *
+#R 1
+pagesize
+#R 500 183
+page
+#R 1
+search -exists inst *
+#R 1
+zoom
+#R 1
+search -exists inst *
+#R 1
+property fillcolor1
+#R #f4f5f7
+property fillcolor5
+#R #e5c7ff
+property backgroundcolor #ffffff
+property boxinstcolor #1c1f28
+property boxpincolor #1c1f28
+property portnamecolor #1c1f28
+property pbusnamecolor #1c1f28
+property netcolor #8bc34a
+property buscolor #469cb9
+property portcolor #000000
+property pbuscolor #000000
+property boxcolor0 #575d6c
+property boxcolor1 #ffffff
+property boxcolor2 #575d6c
+property fillcolor2 #cde5ff
+property fillcolor3 #cde5ff
+property fillcolor4 #cde5ff
+property fillcolor5 #e5c7ff
+property boxcolor3 #000000
+property boxcolor4 #1c1f28
+property selectioncolor #396cef
+property objecthighlight69 #c89900
+property attrfontsize 8
+property objecthighlight0 #fe00f6
+property objecthighlight1 #ffea00
+property objecthighlight2 #84e413
+property objecthighlight3 #1661ff
+property objecthighlight4 #d9b7ff
+property objecthighlight5 #ffa358
+property objecthighlight6 #ff2b2b
+property objecthighlight7 #00e0ff
+property objecthighlight8 #c0ca33
+property objecthighlight9 #b16eff
+property objecthighlight10 #46a466
+property objecthighlight11 #caff78
+property objecthighlight12 #ab47bc
+property objecthighlight13 #b4602c
+property objecthighlight14 #c20f8c
+property objecthighlight15 #00ffaa
+property objecthighlight16 #ff9fe4
+property objecthighlight17 #ff8019
+property objecthighlight18 #26b3ff
+property objecthighlight19 #e5551c
+property rubberbandcolor #1c1f28
+redraw
+page
+#R 1

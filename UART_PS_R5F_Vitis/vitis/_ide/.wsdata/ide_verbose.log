@@ -1,0 +1,471 @@
+2026-10-23 22:52:38 [debug] : --------------------------------------------------------------------------------- 
+2026-10-23 22:52:38 [debug] : /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis 
+2026-10-23 22:52:38 [debug] : --------------------------------------------------------------------------------- 
+2026-10-23 22:52:38 [debug] : [Logger] Previous user logs are stored in the file - /home/bo/.Xilinx/Vitis/2026.1/logs/ide.log 
+2026-10-23 22:52:38 [debug] : [Logger] Previous debug logs are stored in the file - /home/bo/.Xilinx/Vitis/2026.1/.wsdata/ide_verbose.log 
+2026-10-23 22:52:38 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:52:38 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2026-10-23 22:52:38 [debug] : [Application Examples Provider] refresh requested. 
+2026-10-23 22:52:38 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2026-10-23 22:52:38 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2026-10-23 22:52:38 [debug] : [Logger UI]  Update Log Level  called 
+2026-10-23 22:52:38 [debug] : [Application Examples Provider] common calling method requested. 
+2026-10-23 22:52:38 [debug] : [Application Examples Provider] Repositories model update requested. 
+2026-10-23 22:52:38 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-10-23 22:52:38 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-10-23 22:52:38 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2026-10-23 22:52:38 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-10-23 22:52:38 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2026-10-23 22:52:38 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["97993743-2155-4602-923f-414291115581",null,54,null,null,null,null,"refresh-summaries"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:52:38 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2026-10-23 22:52:38 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-10-23 22:52:38 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-10-23 22:52:38 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-23 22:52:38 [debug] : [ProjectCache] Project location updated to undefined 
+2026-10-23 22:52:38 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-23 22:52:38 [debug] : RIGEL SERVER 22:52:38 INFO  : Loading device libraries... 
+2026-10-23 22:52:38 [debug] : RIGEL SERVER 22:52:38 INFO  : Checking out license... 
+2026-10-23 22:52:38 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:38 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:38 [debug] : RIGEL SERVER 22:52:38 INFO  : Parsing and loading parts... 
+2026-10-23 22:52:38 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:38 [debug] : RIGEL SERVER 22:52:38 INFO  : Enabling beta devices... 
+2026-10-23 22:52:38 [debug] : RIGEL SERVER 22:52:38 INFO  : Building device families... 
+2026-10-23 22:52:38 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:38 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:38 [debug] : RIGEL SERVER 22:52:38 INFO  : Device initialization complete 
+2026-10-23 22:52:38 [debug] : RIGEL SERVER 22:52:38 INFO  : Device libraries loaded 
+2026-10-23 22:52:38 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:39 [debug] : RIGEL SERVER 22:52:39 INFO  : [INFO]: Initializing repositories
+22:52:39 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+22:52:39 INFO  : Successfully created repository data at /tmp/rigel_lopper_bo1213793077256473445 
+2026-10-23 22:52:39 [debug] : RIGEL SERVER 22:52:39 INFO  : bash, -c, empyro get_template_data -d /tmp/rigel_lopper_bo1459350879507382194 -r /tmp/rigel_lopper_bo1213793077256473445/.repo.yaml 
+2026-10-23 22:52:39 [debug] : RIGEL SERVER 22:52:39 INFO  : Embedded Template List generated successfully 
+2026-10-23 22:52:39 [debug] : RIGEL SERVER 22:52:39 INFO  : bash, -c, empyro repo -st "/home/bo/AMD/2026.1/Vitis/data/embeddedsw" 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] common calling method completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] refresh completed. 
+2026-10-23 22:52:39 [debug] : [Repository Server] Executed method:listAieExampleRepos. {"0":"result:","1":[{"id":"installed_aie_examples","name":"Installed AI Engine Examples","description":"This repository contains some simple AI Engine examples.","installDirectory":"/home/bo/AMD/2026.1/Vitis/installed_examples/aie_examples","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/installed_aie_examples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":3,"preScript":""},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2026.1","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2026.1","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"/home/bo/AMD/2026.1/Vitis/installed_examples","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/installed_examples","gitUrl":"https://github.com/Xilinx/vitis_templates.git","gitBranch":"2026.1","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"ai_engine_test_harness","name":"AI Engine Test Harness","description":"AIE (AI Engine) Test Harness is designed to assist AIE application designers in verifying and benchmarking their designs on the Versal platforms such as the VCK190, with the ease of a software simulator. Most importantly, AIE Test Harness allows the developers to conduct testing across diverse host systems, including x86 and ARM.","installDirectory":"","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/ai_engine_test_harness","gitUrl":"https://github.com/Xilinx/AI-Engine-Test-Harness.git","gitBranch":"main","gitSubfoldersList":[],"type":2,"preScript":"bin/download.sh"},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2026.1","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2026.1","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"/home/bo/AMD/2026.1/Vitis/installed_examples","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/installed_examples","gitUrl":"https://github.com/Xilinx/vitis_templates.git","gitBranch":"2026.1","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"ai_engine_test_harness","name":"AI Engine Test Harness","description":"AIE (AI Engine) Test Harness is designed to assist AIE application designers in verifying and benchmarking their designs on the Versal platforms such as the VCK190, with the ease of a software simulator. Most importantly, AIE Test Harness allows the developers to conduct testing across diverse host systems, including x86 and ARM.","installDirectory":"","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/ai_engine_test_harness","gitUrl":"https://github.com/Xilinx/AI-Engine-Test-Harness.git","gitBranch":"main","gitSubfoldersList":[],"type":2,"preScript":"bin/download.sh"},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2026.1","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] installed_aie_examples:true 
+2026-10-23 22:52:39 [debug] : [Repository Server] Executing method:getAieExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] vitis_libraries:false 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-10-23 22:52:39 [debug] : [Repository Service] Executing method:getAieExampleTemplateTree from frontend. {"0":"request:"}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-10-23 22:52:39 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-10-23 22:52:39 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executed method:listHlsExampleRepos. {"0":"result:","1":[{"id":"vitis_hls_examples","name":"Vitis HLS Introductory Examples","description":"Basic examples for Vitis HLS.","installDirectory":"","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/vitis_hls_examples","gitUrl":"https://github.com/Xilinx/Vitis-HLS-Introductory-Examples.git","gitBranch":"2026.1","gitSubfoldersList":[],"type":4,"preScript":""},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"","localDirectory":"/home/bo/.Xilinx/Vitis/2026.1/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2026.1","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2026-10-23 22:52:39 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-10-23 22:52:39 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_examples 
+2026-10-23 22:52:39 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"ai_engine_test_harness","repoType":2}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"ai_engine_test_harness","repoType":2}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-10-23 22:52:39 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_hls_examples 
+2026-10-23 22:52:39 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-10-23 22:52:39 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] vitis_hls_examples:false 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] vitis_libraries:false 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-10-23 22:52:39 [debug] : [Repository Server] Executing method:getHlsExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-10-23 22:52:39 [debug] : [Repository Service] Executing method:getHlsExampleTemplateTree from frontend. {"0":"request:"}
+2026-10-23 22:52:39 [debug] : [Application Examples Provider]  Application repository status:2 for id:ai_engine_test_harness 
+2026-10-23 22:52:39 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-10-23 22:52:39 [debug] : [Repository Server] Executing method:getAppTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":{},"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:52:39 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] vitis_examples:false 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] installed_examples:true 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] ai_engine_test_harness:false 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] vitis_libraries:false 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-10-23 22:52:39 [debug] : [Repository Service] Executing method:getAppTemplateTree from frontend. {"0":"request:"}
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] common calling method completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] refresh completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] common calling method completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] refresh completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] common calling method completed. 
+2026-10-23 22:52:39 [debug] : [Application Examples Provider] refresh completed. 
+2026-10-23 22:52:40 [debug] : RIGEL SERVER 22:52:40 INFO  : [INFO]: Initializing repositories
+22:52:40 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details. 
+2026-10-23 22:52:40 [debug] : RIGEL SERVER 22:52:40 INFO  : Successfully created repository data at /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/.wsdata
+22:52:40 INFO  : bash, -c, empyro get_template_data -d /tmp/rigel_lopper_bo4618211942174432313 -r /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/.wsdata/.repo.yaml 
+2026-10-23 22:52:40 [debug] : RIGEL SERVER 22:52:40 INFO  : Embedded Template List generated successfully 
+2026-10-23 22:52:40 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-10-23 22:52:40 [debug] : [Application Examples Provider] common calling method completed. 
+2026-10-23 22:52:40 [debug] : [Application Examples Provider] refresh completed. 
+2026-10-23 22:52:41 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:44 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:47 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:50 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:53 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:56 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:52:59 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:53:02 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:53:05 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:53:08 [debug] : RIGEL SERVER 22:53:08 INFO  : Device init progress broadcast complete, stopping scheduler 
+2026-10-23 22:53:08 [debug] : Received event from notification service: ON_DID_UPDATE_PROGRESS. 
+2026-10-23 22:53:37 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 22:54:21 [debug] : [Platform Server] Executing method:[getProcessorOSList] with connection:(object). {"0":"request:","1":{"wrappers_":{"6":[{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_REPO",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_BOARD_DTS",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_INCLUDE_DTS",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["-dt_overlay","0"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["custom_dtsi",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}],"8":[]},"arrayIndexOffset_":-1,"array":["/home/bo/linux/KV260/UART_PS_R5F_Vitis/build/kv260_ps.xsa",null,[],[],null,[["VITIS_SDT_REPO",null],["VITIS_SDT_BOARD_DTS",null],["VITIS_SDT_INCLUDE_DTS",null],["-dt_overlay","0"],["custom_dtsi",null]],null,[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,true],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:54:21 [debug] : RIGEL SERVER 22:54:21 INFO  : Using sdt generation script from /home/bo/AMD/2026.1/Vitis/vitis-server/scripts/platformutil.tcl 
+2026-10-23 22:54:21 [debug] : RIGEL SERVER 22:54:21 INFO  : bash, -c, sdtgen /home/bo/AMD/2026.1/Vitis/vitis-server/scripts/platformutil.tcl /home/bo/linux/KV260/UART_PS_R5F_Vitis/build/kv260_ps.xsa /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/.rigel_lopper_temp_platform/kv260_ps/hw/sdt 
+2026-10-23 22:54:27 [debug] : RIGEL SERVER 22:54:27 INFO  : INFO: /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/.rigel_lopper_temp_platform/kv260_ps/hw/sdt exists. Files will be overwritten 
+2026-10-23 22:54:27 [debug] : RIGEL SERVER 22:54:27 INFO  : -xsa /home/bo/linux/KV260/UART_PS_R5F_Vitis/build/kv260_ps.xsa
+22:54:27 INFO  : -dir /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/.rigel_lopper_temp_platform/kv260_ps/hw/sdt
+22:54:27 INFO  : -board_dts 
+22:54:27 INFO  : -include_dts 
+22:54:27 INFO  : -repo /home/bo/AMD/2026.1/data/system-device-tree-xlnx 
+2026-10-23 22:54:27 [debug] : RIGEL SERVER 22:54:27 INFO  : -zocl disable 
+2026-10-23 22:54:27 [debug] : RIGEL SERVER 22:54:27 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (/home/bo/AMD/2026.1/data/embeddedsw) loading 0 seconds
+22:54:27 INFO  : SDT generated successfully 
+2026-10-23 22:54:27 [debug] : RIGEL SERVER 22:54:27 INFO  : Lopper command for cpu List generation: lopper --enhanced --werror -f -O /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/.rigel_lopper -i lop-cpu-oslist.dts /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/.rigel_lopper_temp_platform/kv260_ps/hw/sdt/system-top.dts 
+2026-10-23 22:54:27 [debug] : RIGEL SERVER 22:54:27 INFO  : bash, -c, lopper --enhanced --werror -f -O /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/.rigel_lopper -i lop-cpu-oslist.dts /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/.rigel_lopper_temp_platform/kv260_ps/hw/sdt/system-top.dts 
+2026-10-23 22:54:29 [debug] : RIGEL SERVER 22:54:29 INFO  : CPU List generated successfully 
+2026-10-23 22:54:39 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 22:55:07 [debug] : [Platform Server] Executing method:[createPlatformProject] with connection:(object). {"0":"request:","1":{"wrappers_":{"19":[{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_REPO",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_BOARD_DTS",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_INCLUDE_DTS",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["-dt_overlay","0"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["custom_dtsi",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}],"22":[]},"arrayIndexOffset_":-1,"array":["kv260_r5_platform",null,"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform","/home/bo/linux/KV260/UART_PS_R5F_Vitis/build/kv260_ps.xsa","psu_cortexr5_0","standalone",null,null,null,"psu_cortexa53_0",true,null,null,true,null,"",null,null,[["VITIS_SDT_REPO",null],["VITIS_SDT_BOARD_DTS",null],["VITIS_SDT_INCLUDE_DTS",null],["-dt_overlay","0"],["custom_dtsi",null]],null,1,[],"bf05715d-1059-4c0f-a0d5-a0070ad7316e",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:55:07 [debug] : [Platform Server] Create platform kv260_r5_platform requested with internal id 'bf05715d-1059-4c0f-a0d5-a0070ad7316e'. 
+2026-10-23 22:55:07 [debug] : RIGEL SERVER 22:55:07 INFO  : Platform kv260_r5_platform creation started. 
+2026-10-23 22:55:07 [debug] : [Platform Output] Creating kv260_r5_platform platform with id 'bf05715d-1059-4c0f-a0d5-a0070ad7316e' started. 
+2026-10-23 22:55:07 [debug] : RIGEL SERVER 22:55:07 INFO  : Lopper command for cpu List generation: lopper --enhanced --werror -f -O /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/.rigel_lopper -i lop-cpu-oslist.dts /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/hw/sdt/system-top.dts
+22:55:07 INFO  : bash, -c, lopper --enhanced --werror -f -O /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/.rigel_lopper -i lop-cpu-oslist.dts /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/hw/sdt/system-top.dts 
+2026-10-23 22:55:09 [debug] : RIGEL SERVER 22:55:09 INFO  : CPU List generated successfully 
+2026-10-23 22:55:09 [debug] : RIGEL SERVER 22:55:09 INFO  : SDT generated successfully. 
+2026-10-23 22:55:09 [debug] : RIGEL SERVER 22:55:09 INFO  : ZYNQMP: Using the QEMU args from install at  : /home/bo/AMD/2026.1/Vitis/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/qemu_args.txt
+22:55:09 INFO  : ZYNQMP: Using the PMUQEMU args from install at  : /home/bo/AMD/2026.1/Vitis/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/pmu_args.txt 
+2026-10-23 22:55:09 [debug] : RIGEL SERVER 22:55:09 INFO  : ZYNQMP: Using the QEMU args from install at  : /home/bo/AMD/2026.1/Vitis/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt 
+2026-10-23 22:55:09 [debug] : RIGEL SERVER 22:55:09 INFO  : ZYNQMP: Using the PMUQEMU args from install at  : /home/bo/AMD/2026.1/Vitis/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt 
+2026-10-23 22:55:09 [debug] : RIGEL SERVER 22:55:09 INFO  : lopper command to generate BSP :empyro create_bsp -w /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp -p psu_cortexr5_0 -o standalone -s /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/hw/sdt/system-top.dts -t empty_application -r /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/.wsdata/.repo.yaml 
+2026-10-23 22:55:09 [debug] : RIGEL SERVER 22:55:09 INFO  : bash, -c, empyro create_bsp -w /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp -p psu_cortexr5_0 -o standalone -s /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/hw/sdt/system-top.dts -t empty_application -r /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/.wsdata/.repo.yaml 
+2026-10-23 22:55:23 [debug] : RIGEL SERVER 22:55:23 INFO  : [INFO]: Starting domain creation
+22:55:23 INFO  : [INFO]: Generating Domain-specific DTS for psu_cortexr5_0
+22:55:23 INFO  : [INFO]: Generating required metadata from domain specific DT
+22:55:23 INFO  : [INFO]: Found cmake at /home/bo/AMD/2026.1/Vitis/tps/lnx64/cmake-4.0.1/bin/cmake 
+2026-10-23 22:55:23 [debug] : RIGEL SERVER 22:55:23 INFO  : [INFO]: cmake version: cmake version 4.0.1
+22:55:23 INFO  : [INFO]: Found mb-gcc at /home/bo/AMD/2026.1/Vitis/gnu/microblaze/lin/bin/mb-gcc
+22:55:23 INFO  : [INFO]: mb-gcc version: microblaze-xilinx-elf-gcc.real (GCC) 13.4.0
+22:55:23 INFO  : [INFO]: Successfully created Domain at /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp 
+2026-10-23 22:55:23 [debug] : RIGEL SERVER 22:55:23 INFO  : Successfully Generated Domain /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp 
+2026-10-23 22:55:23 [debug] : RIGEL SERVER 22:55:23 INFO  : Domain standalone_psu_cortexr5_0 added successfully. 
+2026-10-23 22:55:23 [debug] : Received event from notification service: ON_UPDATE_PLATFORM_STATUS. 
+2026-10-23 22:55:23 [debug] : Received event from notification service: ON_DID_UPDATE_COMPONENT. 
+2026-10-23 22:55:23 [debug] : Received event from notification service: ON_UPDATE_PLATFORM_STATUS. 
+2026-10-23 22:55:23 [debug] : Received event from notification service: ON_DID_CREATE_COMPONENT. 
+2026-10-23 22:55:23 [debug] : RIGEL SERVER 22:55:23 INFO  : created .gitignore file for the project /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform 
+2026-10-23 22:55:23 [debug] : RIGEL SERVER 22:55:23 INFO  : Platform creation finished successfully. 
+2026-10-23 22:55:23 [debug] : RIGEL SERVER 22:55:23 INFO  : Platform Quick Build initiated. 
+2026-10-23 22:55:23 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-10-23 22:55:23 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2026-10-23 22:55:23 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-10-23 22:55:23 [debug] : RIGEL SERVER 22:55:23 INFO  : Generating Export directory 
+2026-10-23 22:55:23 [debug] : RIGEL SERVER 22:55:23 INFO  : Generated platform metadata for creating application(s) based on platform kv260_r5_platform. 
+2026-10-23 22:55:23 [debug] : [Platform Server] Creating platform kv260_r5_platform  completed on 'kv260_r5_platform' with internal id 'bf05715d-1059-4c0f-a0d5-a0070ad7316e'. 
+2026-10-23 22:55:23 [debug] : [Platform Server] Creating platform kv260_r5_platform  status event - label: kv260_r5_platform, status_code:0, status_details:. 
+2026-10-23 22:55:23 [debug] : [Platform Server] Creating platform kv260_r5_platform  output steam finished on 'kv260_r5_platform' with internal id 'bf05715d-1059-4c0f-a0d5-a0070ad7316e'. 
+2026-10-23 22:55:23 [info] : [Platform Server] Creating platform kv260_r5_platform  output stream finished - kv260_r5_platform. 
+2026-10-23 22:55:23 [debug] : Received event from notification service: ON_DID_MODIFY_PLATFORM_REPOS. 
+2026-10-23 22:55:23 [debug] : [Platform Output] Creating kv260_r5_platform platform with id 'bf05715d-1059-4c0f-a0d5-a0070ad7316e' completed. 
+2026-10-23 22:55:23 [debug] : [Platform Output] Deleting and canceling the build task with id 'bf05715d-1059-4c0f-a0d5-a0070ad7316e'. 
+2026-10-23 22:55:23 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2026-10-23 22:55:23 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-10-23 22:55:23 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-10-23 22:55:23 [debug] : [Component Provider] updating project /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform 
+2026-10-23 22:55:23 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-23 22:55:23 [debug] : [ProjectCache] Project location updated to /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform 
+2026-10-23 22:55:23 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-23 22:55:23 [debug] : [Platform Provider] updating project /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform 
+2026-10-23 22:55:23 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-23 22:55:23 [debug] : [ProjectCache] Project location updated to /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform 
+2026-10-23 22:55:24 [debug] : [Component Provider] project updated /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform 
+2026-10-23 22:55:24 [debug] : [Platform Server] Executing method:[listDomains] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:55:24 [debug] : [Platform Provider] project updated /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform {"0":{"platformName":"kv260_r5_platform","platformDescription":"","platformLocation":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform","xsaPath":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/build/kv260_ps.xsa","xsapathinplatform":"kv260_r5_platform/hw/kv260_ps.xsa","isCustomFsbl":true,"fsblPath":"","pmufwElf":"","supportedFamily":"zynquplus","flow":3,"emulationXsaPath":"","emulationXsaPathInPlatform":"","stdGenHooksList":[],"reconfigurablePartitionsList":[]}}
+2026-10-23 22:55:24 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:55:34 [debug] : [Platform Server] Executing method:[generatePlatform] with connection:(object). {"0":"request:","1":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform"}
+2026-10-23 22:55:34 [debug] : [Platform Server] Generate platform requested for kv260_r5_platform with internal id '9a7820d3-38c1-4a56-bfe0-11e7b45f9ec4'. 
+2026-10-23 22:55:34 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-10-23 22:55:34 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2026-10-23 22:55:34 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-10-23 22:55:34 [debug] : [Platform Output] Generate kv260_r5_platform platform with id '9a7820d3-38c1-4a56-bfe0-11e7b45f9ec4' started. 
+2026-10-23 22:55:34 [debug] : RIGEL SERVER 22:55:34 INFO  : BSP build will be initiated for Domain standalone_psu_cortexr5_0 
+2026-10-23 22:55:34 [debug] : RIGEL SERVER 22:55:34 INFO  : Generating BSP for the domain /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp 
+2026-10-23 22:55:34 [debug] : RIGEL SERVER 22:55:34 INFO  : lopper command to reconfigure BSP :empyro reconfig_bsp -d /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp 
+2026-10-23 22:55:34 [debug] : RIGEL SERVER 22:55:34 INFO  : bash, -c, empyro reconfig_bsp -d /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp 
+2026-10-23 22:55:34 [debug] : PLUGIN_HOST(27195): PluginManagerExtImpl/loadPlugin(/home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/plugins/vitis-output-0.0.1/extension/lib/extension.js) 
+2026-10-23 22:55:34 [debug] : Calling activation function on plugin amd.vitis-output 
+2026-10-23 22:55:34 [debug] : RIGEL SERVER 22:55:34 INFO  : Domain reconfigured successfully 
+2026-10-23 22:55:34 [debug] : RIGEL SERVER 22:55:34 INFO  : Generating BSP for the domain /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp 
+2026-10-23 22:55:34 [debug] : RIGEL SERVER 22:55:34 INFO  : lopper command to build BSP :empyro build_bsp -d /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp 
+2026-10-23 22:55:34 [debug] : RIGEL SERVER 22:55:34 INFO  : bash, -c, empyro build_bsp -d /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/psu_cortexr5_0/standalone_psu_cortexr5_0/bsp 
+2026-10-23 22:55:36 [debug] : RIGEL SERVER 22:55:36 INFO  : Domain build successfully 
+2026-10-23 22:55:36 [debug] : RIGEL SERVER 22:55:36 INFO  : Generating Boot ELFs 
+2026-10-23 22:55:36 [debug] : RIGEL SERVER 22:55:36 INFO  : Generating Export directory 
+2026-10-23 22:55:36 [debug] : Received event from notification service: ON_DID_UPDATE_COMPONENT. 
+2026-10-23 22:55:36 [debug] : Received event from notification service: ON_UPDATE_PLATFORM_STATUS. 
+2026-10-23 22:55:36 [debug] : [Platform Server] Generate platform completed on 'kv260_r5_platform' with internal id '9a7820d3-38c1-4a56-bfe0-11e7b45f9ec4'. 
+2026-10-23 22:55:36 [debug] : [Platform Server] Generate platform status event - label: kv260_r5_platform, status_code:0, status_details:. 
+2026-10-23 22:55:36 [debug] : [Platform Server] Generate platform output steam finished on 'kv260_r5_platform' with internal id '9a7820d3-38c1-4a56-bfe0-11e7b45f9ec4'. 
+2026-10-23 22:55:36 [info] : [Platform Server] Generate platform output stream finished - kv260_r5_platform. 
+2026-10-23 22:55:36 [debug] : RIGEL SERVER 22:55:36 INFO  : Platform Build Finished successfully. 
+2026-10-23 22:55:36 [debug] : Received event from notification service: ON_DID_MODIFY_PLATFORM_REPOS. 
+2026-10-23 22:55:36 [debug] : [Platform Output] Generate kv260_r5_platform platform with id '9a7820d3-38c1-4a56-bfe0-11e7b45f9ec4' completed. 
+2026-10-23 22:55:36 [debug] : [Platform Output] Deleting and canceling the build task with id '9a7820d3-38c1-4a56-bfe0-11e7b45f9ec4'. 
+2026-10-23 22:55:36 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2026-10-23 22:55:36 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-10-23 22:55:36 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:55:41 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 22:56:43 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 22:57:39 [debug] : [Repository Server] Executing method:listRepoPaths with connection:(object). {"0":"request:","1":{"name":""}}
+2026-10-23 22:57:39 [debug] : [Repository Server] Executing method:listRepoPaths with connection:(object). {"0":"request:","1":{"name":""}}
+2026-10-23 22:57:39 [debug] : [Repository Service] Executing method:listRepoPaths from frontend. {"0":"request:","1":{"name":""}}
+2026-10-23 22:57:39 [debug] : [Repository Service] Executing method:listRepoPaths from frontend. {"0":"request:","1":{"name":""}}
+2026-10-23 22:57:39 [debug] : [Repository Server] Executing method:listPlatforms with connection:(object). {"0":"request:","1":{"name":"","repoPath":"","ignoreCertifiedRequisite":true,"flowList":[]}}
+2026-10-23 22:57:39 [debug] : [Repository Service] Executing method:listPlatforms from frontend. {"0":"request:","1":{"name":"","repoPath":"","ignoreCertifiedRequisite":true,"flowList":[]}}
+2026-10-23 22:57:39 [debug] : [Repository Service] Executing method:listPlatforms from frontend. {"0":"request:","1":{"name":"","repoPath":"","ignoreCertifiedRequisite":true,"flowList":[]}}
+2026-10-23 22:57:39 [debug] : [Repository Server] Executing method:listPlatforms with connection:(object). {"0":"request:","1":{"name":"","repoPath":"","ignoreCertifiedRequisite":true,"flowList":[]}}
+2026-10-23 22:57:45 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 22:58:12 [debug] : [Repository Service] Executing method:getFilteredPlatformDomains from frontend. {"0":"request:"}
+2026-10-23 22:58:12 [debug] : [Repository Server] Executing method:getFilteredPlatformDomains with connection:(object). {"0":"request:","1":{"platformPath":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/kv260_r5_platform.xpfm","supportedOsList":[],"supportedCputypeList":[]}}
+2026-10-23 22:58:12 [debug] : [Platform Server] Executing method:[validateBSP] with connection:(object). {"0":"request:","1":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/kv260_r5_platform.xpfm","standalone_psu_cortexr5_0",null,null,null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:58:12 [debug] : RIGEL SERVER 22:58:12 INFO  : bash, -c, empyro validate_bsp -t empty_application -d /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/sw/standalone_psu_cortexr5_0 -r /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/.wsdata/.repo.yaml 
+2026-10-23 22:58:12 [debug] : RIGEL SERVER 22:58:12 INFO  : Successfully validated template empty_application 
+2026-10-23 22:58:16 [debug] : [Repository Server] Executing method:validatePlatform with connection:(object). {"0":"request:","1":{"platformPath":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/kv260_r5_platform.xpfm"}}
+2026-10-23 22:58:16 [debug] : [Repository Service] Executing method:validatePlatform from frontend. {"0":"request:","1":{"platformPath":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/kv260_r5_platform.xpfm"}}
+2026-10-23 22:58:47 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 22:59:37 [debug] : Executing method:[createComponentProject] with connection:(object). {"0":"request:","1":{"wrappers_":{"13":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[["part=xcvu9p-flga2104-2-i","","[hls]","package.output.format=ip_catalog","package.output.syn=false"]],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}},"arrayIndexOffset_":-1,"array":["hello_r5","/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5",3,"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/kv260_r5_platform.xpfm",null,"standalone_psu_cortexr5_0","psu_cortexr5_0","standalone",null,"cortex-r5","standalone_psu_cortexr5_0",[],[["part=xcvu9p-flga2104-2-i","","[hls]","package.output.format=ip_catalog","package.output.syn=false"]],null,null,null,null,null,"700bef57-dd34-4845-acf8-d242eb41f51f"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:59:37 [debug] : RIGEL SERVER 22:59:37 INFO  : lopper command to create baremetal application :empyro create_app --src_dir /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/src -t empty_application -d /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/sw/standalone_psu_cortexr5_0 -n hello_r5 -r /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/.wsdata/.repo.yaml 
+2026-10-23 22:59:37 [debug] : RIGEL SERVER 22:59:37 INFO  : bash, -c, empyro validate_bsp -t empty_application -d /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/sw/standalone_psu_cortexr5_0 -r /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/.wsdata/.repo.yaml 
+2026-10-23 22:59:38 [debug] : RIGEL SERVER 22:59:38 INFO  : Successfully validated template empty_application 
+2026-10-23 22:59:38 [debug] : RIGEL SERVER 22:59:38 INFO  : bash, -c, empyro create_app --src_dir /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/src -t empty_application -d /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/sw/standalone_psu_cortexr5_0 -n hello_r5 -r /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/.wsdata/.repo.yaml 
+2026-10-23 22:59:40 [debug] : RIGEL SERVER 22:59:40 INFO  : [INFO]: Generating Linker script for empty_application 
+2026-10-23 22:59:40 [debug] : RIGEL SERVER 22:59:40 INFO  : [INFO]: Successfully Created Application sources at /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/src
+22:59:40 INFO  : Successfully created Application /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/src 
+2026-10-23 22:59:40 [debug] : RIGEL SERVER 22:59:40 INFO  : The hardware specification used by project '/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5' is out of sync with the platform. Resource files extracted from the hardware specification will be updated. 
+2026-10-23 22:59:40 [debug] : RIGEL SERVER 22:59:40 INFO  : The updated ps init files are copied from platform to folder '/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/_ide/psinit' in project '/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5'. 
+2026-10-23 22:59:40 [debug] : RIGEL SERVER 22:59:40 INFO  : created .gitignore file for the project /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5 
+2026-10-23 22:59:40 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-10-23 22:59:40 [debug] : Received event from notification service: ON_DID_CREATE_COMPONENT. 
+2026-10-23 22:59:40 [debug] : [Workspace Service] Attempting to restart clangd - unimplemented 
+2026-10-23 22:59:40 [debug] : Received event from notification service: ON_DID_UPDATE_COMPILE_COMMAND. 
+2026-10-23 22:59:40 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-10-23 22:59:40 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-23 22:59:40 [debug] : [Platform Provider] updating project /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform 
+2026-10-23 22:59:40 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-23 22:59:40 [debug] : [Platform Provider] updating project /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform 
+2026-10-23 22:59:40 [debug] : [ProjectDecorator] tree decoration updated 
+2026-10-23 22:59:40 [debug] : [ProjectCache] Project location updated to /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5 
+2026-10-23 22:59:40 [debug] : [Platform Provider] project updated /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform {"0":{"platformName":"kv260_r5_platform","platformDescription":"","platformLocation":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform","xsaPath":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/build/kv260_ps.xsa","xsapathinplatform":"kv260_r5_platform/hw/kv260_ps.xsa","isCustomFsbl":true,"fsblPath":"","pmufwElf":"","supportedFamily":"zynquplus","flow":3,"emulationXsaPath":"","emulationXsaPathInPlatform":"","stdGenHooksList":[],"reconfigurablePartitionsList":[]}}
+2026-10-23 22:59:40 [debug] : [Platform Server] Executing method:[listDomains] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:59:40 [debug] : [Platform Provider] project updated /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform {"0":{"platformName":"kv260_r5_platform","platformDescription":"","platformLocation":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform","xsaPath":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/build/kv260_ps.xsa","xsapathinplatform":"kv260_r5_platform/hw/kv260_ps.xsa","isCustomFsbl":true,"fsblPath":"","pmufwElf":"","supportedFamily":"zynquplus","flow":3,"emulationXsaPath":"","emulationXsaPathInPlatform":"","stdGenHooksList":[],"reconfigurablePartitionsList":[]}}
+2026-10-23 22:59:40 [debug] : [Platform Server] Executing method:[listDomains] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:59:40 [debug] : [Component Provider] updating project /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5 
+2026-10-23 22:59:40 [debug] : [Component Provider] project updated /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5 
+2026-10-23 22:59:40 [debug] : [Repository Server] Executing method:getHwPlatform with connection:(object). {"0":"request:","1":{"platformPath":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/kv260_r5_platform.xpfm"}}
+2026-10-23 22:59:40 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-10-23 22:59:40 [debug] : [Repository Server] Executing method:getSwPlatform with connection:(object). {"0":"request:","1":{"platformPath":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/kv260_r5_platform.xpfm"}}
+2026-10-23 22:59:40 [debug] : [Repository Server] Executing method:getHwPlatformImg with connection:(object). {"0":"request:","1":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/hw/kv260_ps.xsa"}
+2026-10-23 22:59:40 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:59:40 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-10-23 22:59:49 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:00:24 [debug] : [Build Server] Executing method:build with connection:(object). {"0":"request:","1":{"appParentPath":"/home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis","appName":"hello_r5","buildCfg":"","componentName":"","type":0,"buildTarget":"all","workDirPath":"","customCommand":"","containerName":"","serialBuild":true,"buildComps":false,"componentsToBuildList":[]}}
+2026-10-23 23:00:24 [debug] : [Build Server] Build requested on 'hello_r5::' with internal id 'b20e2c15-50bc-4a28-9620-9c98d03546cd'. 
+2026-10-23 23:00:24 [debug] : RIGEL SERVER 23:00:24 INFO  : lopper command to retarget baremetal application :empyro retarget_app -s /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/src -d /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/sw/standalone_psu_cortexr5_0 -b /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/build 
+2026-10-23 23:00:24 [debug] : RIGEL SERVER 23:00:24 INFO  : bash, -c, empyro retarget_app -s /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/src -d /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/kv260_r5_platform/export/kv260_r5_platform/sw/standalone_psu_cortexr5_0 -b /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/build 
+2026-10-23 23:00:24 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 1,
+        "startColumn": 1,
+        "endLineNumber": 1,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "{\n    \"vitis.build.application –PlatformBuildDependency\": \"never\"\n}",
+      "rangeOffset": 0,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/settings.json"}
+2026-10-23 23:00:24 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/settings.json"}
+2026-10-23 23:00:24 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/settings.json"}
+2026-10-23 23:00:24 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/settings.json"}
+2026-10-23 23:00:24 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/settings.json"}
+2026-10-23 23:00:24 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/settings.json"}
+2026-10-23 23:00:24 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/settings.json"}
+2026-10-23 23:00:24 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2026-10-23 23:00:24 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-10-23 23:00:24 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/settings.json"}
+2026-10-23 23:00:24 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/_ide/settings.json"}
+2026-10-23 23:00:24 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-10-23 23:00:24 [debug] : RIGEL SERVER 23:00:24 INFO  : [INFO]: Retargeting app
+23:00:24 INFO  : [INFO]: Updating link libraries based on new domain
+23:00:24 INFO  : Successfully retargeted Application /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/src 
+2026-10-23 23:00:24 [debug] : RIGEL SERVER 23:00:24 INFO  : Initiating build for the hello_r5 component. 
+2026-10-23 23:00:24 [debug] : RIGEL SERVER 23:00:24 INFO  : bash, -c, empyro build_app -s /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/src -b /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/build 
+2026-10-23 23:00:24 [debug] : RIGEL SERVER 23:00:24 INFO  : Command: bash -c unset CC CXX ;empyro build_app -s /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/src -b /home/bo/linux/KV260/UART_PS_R5F_Vitis/vitis/hello_r5/build 
+2026-10-23 23:00:24 [debug] : [Build Output] Build for hello_r5::build with id 'b20e2c15-50bc-4a28-9620-9c98d03546cd' started. 
+2026-10-23 23:00:26 [debug] : [Build Server] Build completed on 'hello_r5::' with internal id 'b20e2c15-50bc-4a28-9620-9c98d03546cd'. 
+2026-10-23 23:00:26 [debug] : [Build Server] Build status event - label: hello_r5::, status_code:0, status_details:. 
+2026-10-23 23:00:26 [debug] : [Build Server] Build output steam finished on 'hello_r5::' with internal id 'b20e2c15-50bc-4a28-9620-9c98d03546cd'. 
+2026-10-23 23:00:26 [info] : [Build Server] Build output stream finished - hello_r5::. 
+2026-10-23 23:00:26 [debug] : [Workspace Service] Attempting to restart clangd - unimplemented 
+2026-10-23 23:00:26 [debug] : Received event from notification service: ON_DID_UPDATE_COMPILE_COMMAND. 
+2026-10-23 23:00:26 [debug] : [Workspace Service] Attempting to restart clangd - unimplemented 
+2026-10-23 23:00:26 [debug] : Received event from notification service: ON_DID_UPDATE_COMPILE_COMMAND. 
+2026-10-23 23:00:26 [debug] : [Build Output] Build for hello_r5::build with id 'b20e2c15-50bc-4a28-9620-9c98d03546cd' completed. 
+2026-10-23 23:00:26 [debug] : [Build Output] Deleting and canceling the build task with id 'b20e2c15-50bc-4a28-9620-9c98d03546cd'. 
+2026-10-23 23:00:26 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2026-10-23 23:00:26 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-10-23 23:00:50 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:01:52 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:02:54 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:03:56 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:04:58 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:06:00 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:07:01 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:08:03 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:09:05 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:10:07 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:11:09 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:12:11 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:13:13 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:14:15 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:15:17 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:16:19 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:17:20 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:18:22 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:19:24 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:20:26 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:21:28 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:22:30 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:23:32 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:24:34 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:25:36 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:26:38 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:27:39 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:28:41 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:29:43 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:30:45 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:31:47 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:32:49 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:33:51 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:34:53 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:35:55 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:36:57 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:37:59 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:39:01 [debug] : Error:  {"0":"Error: SSE stream disconnected: TypeError: terminated\n    at /home/bo/AMD/2026.1/Vitis/ide/electron-app/lnx64/resources/app/lib/backend/864.js:5:154791\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2026-10-23 23:39:29 [debug] : socket closed 
+2026-10-23 23:39:29 [debug] : closing connection for 1 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/localization-server'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/os'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/commands'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/logger'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/messageService'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2026-10-23 23:39:29 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/ChannelCloseService'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/envs'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/workspace'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/keyboard'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/stopwatch'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/application'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/i18n'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/quickInput'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/project'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/component'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/feature-registry'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/debugger'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/debug'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/quickPick'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/task'. 
+2026-10-23 23:39:29 [debug] : a client has disconnected - removed from list: 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/search'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/vsx-environment'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/request-service'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/cli-preferences'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/server'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/repository'. 
+2026-10-23 23:39:29 [debug] : [Repository Server] Disposing objects in backend. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/program_flash'. 
+2026-10-23 23:39:29 [debug] : [Program Flash Server] Disposing objects in backend. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/build'. 
+2026-10-23 23:39:29 [debug] : [Build Server] Disposing objects in backend. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/notification'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/aie'. 
+2026-10-23 23:39:29 [debug] : [AIE Server] Disposing objects in backend. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/analysis'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/linker-script'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2026-10-23 23:39:29 [debug] : [Logger Server] Disposing objects in backend. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/platform'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/device'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/hls/report'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/hls/directive'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/hls_flow'. 
+2026-10-23 23:39:29 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/hls-config'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/open-ai/language-model-manager'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/anthropic/language-model-manager'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/mcpservermanager'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/languageModelRegistryDelegatePath'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/languageModelDelegatePath'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/rigel-ai/language-model-manager'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/rigel-anthropic/language-model-manager'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/mcpremoteservermanager'. 
+2026-10-23 23:39:29 [debug] : Disconnecting MCP server "vivado-doc-server" 
+2026-10-23 23:39:29 [debug] : Terminating session for MCP server "vivado-doc-server" 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/google/language-model-manager'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/huggingface/language-model-manager'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/llamafilemanager'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/ollama/language-model-manager'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/vercel-ai/language-model-manager'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/config-file'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/elf-reader'. 
+2026-10-23 23:39:29 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/project-utils'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/bootgen'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/cdo-utils'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/report-model'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/scanoss/service'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/token-usage'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/keyStore'. 
+2026-10-23 23:39:29 [debug] : Closing channel on service path '/services/languagePackService'. 
