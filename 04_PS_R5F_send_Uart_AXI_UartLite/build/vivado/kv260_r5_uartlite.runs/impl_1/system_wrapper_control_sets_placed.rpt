@@ -1,0 +1,118 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (lin64) Build 6511674 Tue Jun 16 11:01:26 MDT 2026
+| Date         : Sun Oct 25 21:36:32 2026
+| Host         : bo running 64-bit Ubuntu 22.04.5 LTS
+| Command      : report_control_sets -verbose -file system_wrapper_control_sets_placed.rpt
+| Design       : system_wrapper
+| Device       : xck26
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    40 |
+|    Minimum number of control sets                        |    40 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    55 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    40 |
+| >= 0 to < 4        |     7 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     6 |
+| >= 8 to < 10       |     8 |
+| >= 10 to < 12      |     3 |
+| >= 12 to < 14      |     3 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              91 |           30 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              89 |           30 |
+| Yes          | No                    | No                     |              18 |            4 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             291 |           74 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+---------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|               Clock Signal               |                                              Enable Signal                                              |                                                     Set/Reset Signal                                                     | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------------------+---------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/s_rresp[0]                                  | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                1 |              2 |         2.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/s_bresp[0]                                  | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_write.s_bresp[1]_i_1_n_0                                 |                1 |              2 |         2.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/ar_addr_d[0]                                | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                2 |              2 |         1.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/start2_i_1_n_0                            | system_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst                                                        |                1 |              2 |         2.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/FSM_sequential_gen_write.w_state[2]_i_1_n_0 | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                2 |              3 |         1.50 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/FSM_sequential_gen_read.r_state[2]_i_1_n_0  | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                2 |              3 |         1.50 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_TX_I/mux_sel[0]                                     | system_i/rst_ps8_0_99M/U0/peripheral_aresetn[0]                                                                          |                1 |              3 |         3.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                                                                         | system_i/rst_ps8_0_99M/U0/EXT_LPF/lpf_int                                                                                |                2 |              4 |         2.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/start2                                    | system_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_ce_clr                                        |                1 |              4 |         4.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_uartlite_0/U0/UARTLITE_CORE_I/BAUD_RATE_I/en_16x_Baud                                      |                                                                                                                          |                1 |              4 |         4.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_write.aw_incr[2]_i_1_n_0                | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                2 |              5 |         2.50 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                                                                         | system_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/TX_FIFO_Reset                                        |                1 |              6 |         6.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_write.w_split[4]_i_1_n_0                | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                3 |              6 |         2.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/last_r_split                                | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                4 |              6 |         1.50 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/rst_ps8_0_99M/U0/SEQ/seq_cnt_en                                                                | system_i/rst_ps8_0_99M/U0/SEQ/seq_clr                                                                                    |                1 |              6 |         6.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                                                                         | system_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/RX_FIFO_Reset                                        |                2 |              6 |         3.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_uartlite_0/U0/UARTLITE_CORE_I/BAUD_RATE_I/en_16x_Baud                                      | system_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_RX_I/SERIAL_TO_PARALLEL[8].fifo_din[8]_i_1_n_0                       |                2 |              7 |         3.50 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/fifo_wr                             |                                                                                                                          |                1 |              8 |         8.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/last_r_repeat                               | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                4 |              8 |         2.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/fifo_wr                         |                                                                                                                          |                1 |              8 |         8.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                                                                         | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/m_wdata0                                                     |                1 |              8 |         8.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rresp_i[0]                          | system_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst                                                        |                4 |              9 |         2.25 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/r_beats[0]                                  | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                3 |              9 |         3.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                                                                         | system_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst                                                        |                3 |              9 |         3.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_read.m_r_en_reg_n_0                     | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_read.arctrl_mux/gen_read.m_r_en_reg                      |                2 |              9 |         4.50 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/r_cnt[0]                                    | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                7 |             11 |         1.57 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_write.b_cnt[10]_i_2_n_0                 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_write.b_cnt[10]_i_1_n_0                                  |                3 |             11 |         3.67 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_write.wstrb_mux/E[0]                    | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                4 |             11 |         2.75 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_write.aw_addr[3]_i_1_n_0                | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                5 |             12 |         2.40 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/ar_addr[0]                                  | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                6 |             12 |         2.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                                                                         | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/w_grant_i                                                    |                3 |             13 |         4.33 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/s_bid[0]                                    | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                4 |             16 |         4.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/s_rid[0]                                    |                                                                                                                          |                3 |             16 |         5.33 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                                                                         | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |               14 |             20 |         1.43 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_read.r_m_dwsize_mux/E[0]                | system_i/axi_smc/inst/sc_ul/inst/cdc_aresetn/syncstages_ff[1]                                                            |                4 |             22 |         5.50 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                                                                         | system_i/rst_ps8_0_99M/U0/peripheral_aresetn[0]                                                                          |                9 |             23 |         2.56 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_uartlite_0/U0/UARTLITE_CORE_I/BAUD_RATE_I/en_16x_Baud                                      | system_i/rst_ps8_0_99M/U0/peripheral_aresetn[0]                                                                          |                3 |             28 |         9.33 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_write.awid_mux/s_aw_en                  | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_write.awctrl_mux/FSM_sequential_gen_write.w_state_reg[2] |               11 |             41 |         3.73 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_read.arid_mux/s_r_en                    | system_i/axi_smc/inst/sc_ul/inst/gen_axi_full_nxm.sasd_inst/gen_read.arctrl_mux/FSM_sequential_gen_read.r_state_reg[2]   |                9 |             41 |         4.56 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                                                                         |                                                                                                                          |               30 |             92 |         3.07 |
++------------------------------------------+---------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+
+

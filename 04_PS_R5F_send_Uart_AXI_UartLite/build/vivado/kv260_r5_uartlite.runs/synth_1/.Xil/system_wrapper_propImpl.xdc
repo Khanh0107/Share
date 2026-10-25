@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:/home/bo/linux/KV260/Share/04_PS_R5F_send_Uart_AXI_UartLite/hw/pins.xdc rfile:../../../../../hw/pins.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H12 [get_ports uartlite_tx]
+set_property src_info {type:XDC file:1 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN E10 [get_ports uartlite_rx]
