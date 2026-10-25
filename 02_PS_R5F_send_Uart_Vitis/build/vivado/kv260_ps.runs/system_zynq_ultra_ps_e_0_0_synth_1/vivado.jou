@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Oct 25 11:45:43 2026
+# Process ID         : 6587
+# Current directory  : /home/bo/linux/KV260/UART_PS_R5F_Vitis/build/vivado/kv260_ps.runs/system_zynq_ultra_ps_e_0_0_synth_1
+# Command line       : vivado -log system_zynq_ultra_ps_e_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_zynq_ultra_ps_e_0_0.tcl
+# Log file           : /home/bo/linux/KV260/UART_PS_R5F_Vitis/build/vivado/kv260_ps.runs/system_zynq_ultra_ps_e_0_0_synth_1/system_zynq_ultra_ps_e_0_0.vds
+# Journal file       : /home/bo/linux/KV260/UART_PS_R5F_Vitis/build/vivado/kv260_ps.runs/system_zynq_ultra_ps_e_0_0_synth_1/vivado.jou
+# Running On         : bo
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : AMD Ryzen 7 7700X 8-Core Processor
+# CPU Frequency      : 4499.911 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 16
+# Host memory        : 16721 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 25311 MB
+# Available Virtual  : 21430 MB
+#-----------------------------------------------------------
+source system_zynq_ultra_ps_e_0_0.tcl -notrace

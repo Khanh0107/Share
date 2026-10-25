@@ -1,0 +1,8 @@
+verilog xil_defaultlib -i "../../../../../../../../../AMD/2026.1/data/rsb/busdef" --include "/home/bo/AMD/2026.1/data/xilinx_vip/include" --include "../../../../kv260_ps.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../kv260_ps.gen/sources_1/bd/system/ipshared/cec9/hdl" \
+"../../../bd/system/ip/system_zynq_ultra_ps_e_0_0/sim/system_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../bd/system/sim/system.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

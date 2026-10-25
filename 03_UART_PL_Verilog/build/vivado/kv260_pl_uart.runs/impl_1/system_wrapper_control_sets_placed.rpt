@@ -1,0 +1,87 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (lin64) Build 6511674 Tue Jun 16 11:01:26 MDT 2026
+| Date         : Sun Oct 25 21:11:37 2026
+| Host         : bo running 64-bit Ubuntu 22.04.5 LTS
+| Command      : report_control_sets -verbose -file system_wrapper_control_sets_placed.rpt
+| Design       : system_wrapper
+| Device       : xck26
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     9 |
+|    Minimum number of control sets                        |     9 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |     6 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     9 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              24 |            5 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               7 |            4 |
+| Yes          | No                    | No                     |               7 |            3 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              64 |           18 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+--------------------------------------------------+---------------------------------------------------+------------------+----------------+--------------+
+|               Clock Signal               |                   Enable Signal                  |                  Set/Reset Signal                 | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------------------+--------------------------------------------------+---------------------------------------------------+------------------+----------------+--------------+
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                  | system_i/rst_pl_100M/U0/peripheral_aresetn[0]     |                2 |              3 |         1.50 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                  | system_i/rst_pl_100M/U0/EXT_LPF/lpf_int           |                2 |              4 |         2.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/hello_pl_0/inst/u_tx/tx0_out            | system_i/hello_pl_0/inst/u_tx/clk_cnt[15]_i_1_n_0 |                2 |              4 |         2.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/rst_pl_100M/U0/SEQ/seq_cnt_en           | system_i/rst_pl_100M/U0/SEQ/seq_clr               |                1 |              6 |         6.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/hello_pl_0/inst/char_idx[5]_i_2_n_0     | system_i/hello_pl_0/inst/char_idx[5]_i_1_n_0      |                2 |              6 |         3.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/hello_pl_0/inst/u_tx/shifter[7]_i_1_n_0 |                                                   |                3 |              7 |         2.33 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/hello_pl_0/inst/u_tx/busy               | system_i/hello_pl_0/inst/u_tx/clk_cnt[15]_i_1_n_0 |                5 |             16 |         3.20 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 |                                                  |                                                   |                5 |             25 |         5.00 |
+|  system_i/zynq_ultra_ps_e_0/inst/pl_clk0 | system_i/hello_pl_0/inst/sending_reg_inv_n_0     | system_i/rst_pl_100M/U0/peripheral_aresetn[0]     |                8 |             32 |         4.00 |
++------------------------------------------+--------------------------------------------------+---------------------------------------------------+------------------+----------------+--------------+
+
+
